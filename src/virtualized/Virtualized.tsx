@@ -18,6 +18,7 @@ const Virtualized: React.FC<VirtualizedProps> = ({
   tableOptions,
   rowOptions,
   listRef,
+  onRowsRendered,
 }: VirtualizedProps) => {
   return (
     <>
@@ -47,6 +48,7 @@ const Virtualized: React.FC<VirtualizedProps> = ({
               </div>
             ))}
             itemData={{ items: tableList }}
+            onItemsRendered={onRowsRendered}
           >
             {({ index, style, data }) => (
               <div
