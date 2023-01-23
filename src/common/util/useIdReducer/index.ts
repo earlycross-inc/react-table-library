@@ -3,16 +3,16 @@ import * as React from 'react';
 import { findNodeById } from '../tree/findNodeById';
 import { fromTreeToList } from '../tree/fromTreeToList';
 import { includesAll, includesNone } from '../tree/includesAll';
-import { useSyncControlledState } from '../useSyncControlledState';
 import { useReducerWithMiddleware } from '../useReducerWithMiddleware';
+import { useSyncControlledState } from '../useSyncControlledState';
 
 import {
-  State,
   Action,
-  MiddlewareFunction,
   IdReducerFunctions,
-} from '@table-library/react-table-library/types/common';
-import { Data, TableNode } from '@table-library/react-table-library/types/table';
+  MiddlewareFunction,
+  State,
+} from '@earlycross-inc/react-table-library/types/common';
+import { Data, TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 const addById = (state: State, action: Action) => {
   return {

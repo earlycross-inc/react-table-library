@@ -1,16 +1,10 @@
 import * as React from 'react';
 
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 
 import { nodes } from '../data';
 
@@ -69,9 +63,9 @@ import {
   Row,
   HeaderCell,
   Cell,
-} from '@table-library/react-table-library/table';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
+} from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
 
 import { nodes } from '../data';
 

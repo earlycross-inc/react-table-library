@@ -1,19 +1,19 @@
 import * as React from 'react';
-import { VariableSizeList } from 'react-window';
 import AutoSizer from 'react-virtualized-auto-sizer';
+import { VariableSizeList } from 'react-window';
 
-import { Body } from '@table-library/react-table-library/table/index';
 import {
-  SHARED_VIRTUALIZE_STYLE,
   getRowHeight,
-} from '@table-library/react-table-library/common/util/virtualized';
+  SHARED_VIRTUALIZE_STYLE,
+} from '@earlycross-inc/react-table-library/common/util/virtualized';
+import { Body } from '@earlycross-inc/react-table-library/table/index';
 
 import {
   CompactTableProps,
-  VirtualizedTableProps,
-  InternalsObject,
   Internals,
-} from '@table-library/react-table-library/types/compact';
+  InternalsObject,
+  VirtualizedTableProps,
+} from '@earlycross-inc/react-table-library/types/compact';
 
 import { CompactHeader } from './CompactHeader';
 import { CompactRow } from './CompactRow';

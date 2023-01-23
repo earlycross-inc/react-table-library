@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { TableNode, OnClick, Event } from '@table-library/react-table-library/types/table';
-import { Nullish } from '@table-library/react-table-library/types/common';
+import { Nullish } from '@earlycross-inc/react-table-library/types/common';
+import { Event, OnClick, TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 const NOOP = () => {};
 

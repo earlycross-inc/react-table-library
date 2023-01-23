@@ -1,4 +1,4 @@
-import { TableNode, Features } from '@table-library/react-table-library/types/table';
+import { Features, TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 export const applyModifiers =
   ({ sort, pagination, tree }: Features) =>

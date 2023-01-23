@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import { Nullish } from '@table-library/react-table-library/types/common';
-import { Theme } from '@table-library/react-table-library/types/theme';
-import { Layout } from '@table-library/react-table-library/types/layout';
-import { ColumnResizeProps } from '@table-library/react-table-library/types/resize';
-import { Select } from '@table-library/react-table-library/types/select';
-import { Tree } from '@table-library/react-table-library/types/tree';
-import { Sort } from '@table-library/react-table-library/types/sort';
-import { Pagination } from '@table-library/react-table-library/types/pagination';
+import { Nullish } from '@earlycross-inc/react-table-library/types/common';
+import { Layout } from '@earlycross-inc/react-table-library/types/layout';
+import { Pagination } from '@earlycross-inc/react-table-library/types/pagination';
+import { ColumnResizeProps } from '@earlycross-inc/react-table-library/types/resize';
+import { Select } from '@earlycross-inc/react-table-library/types/select';
+import { Sort } from '@earlycross-inc/react-table-library/types/sort';
+import { Theme } from '@earlycross-inc/react-table-library/types/theme';
+import { Tree } from '@earlycross-inc/react-table-library/types/tree';
 
 // external
 

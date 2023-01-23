@@ -1,14 +1,14 @@
-import * as React from 'react';
 import cs from 'clsx';
+import * as React from 'react';
 
-import { Button } from '@table-library/react-table-library/common/components/Button';
+import { Button } from '@earlycross-inc/react-table-library/common/components/Button';
 
-import { Nullish, State } from '@table-library/react-table-library/types/common';
+import { Nullish, State } from '@earlycross-inc/react-table-library/types/common';
 import {
   Sort,
-  SortOptionsIcon,
   SortIconPositions,
-} from '@table-library/react-table-library/types/sort';
+  SortOptionsIcon,
+} from '@earlycross-inc/react-table-library/types/sort';
 
 const getSortIcon = (
   sortState: State,

@@ -1,5 +1,5 @@
-import { Nullish } from '@table-library/react-table-library/types/common';
-import { Data, TableNode } from '@table-library/react-table-library/types/table';
+import { Nullish } from '@earlycross-inc/react-table-library/types/common';
+import { Data, TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 import { hasLeaves } from './hasLeaves';
 

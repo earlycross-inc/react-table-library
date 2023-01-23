@@ -1,8 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { css, jsx, SerializedStyles } from '@emotion/react';
+import { css, SerializedStyles } from '@emotion/react';
 
-import { ColumnResizeProps } from '@table-library/react-table-library/types/resize';
+import { ColumnResizeProps } from '@earlycross-inc/react-table-library/types/resize';
 
 const resizerStyle = (
   resize: ColumnResizeProps,

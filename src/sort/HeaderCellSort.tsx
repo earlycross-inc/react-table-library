@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { SortContext } from '@table-library/react-table-library/common/context/Sort';
-import { HeaderCell } from '@table-library/react-table-library/table/Cell';
+import { SortContext } from '@earlycross-inc/react-table-library/common/context/Sort';
+import { HeaderCell } from '@earlycross-inc/react-table-library/table/Cell';
 
-import { HeaderCellSortProps } from '@table-library/react-table-library/types/sort';
+import { HeaderCellSortProps } from '@earlycross-inc/react-table-library/types/sort';
 
 import { SortButton } from './SortButton';
 

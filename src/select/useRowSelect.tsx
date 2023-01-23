@@ -1,29 +1,29 @@
-import * as React from 'react';
 import cs from 'clsx';
+import * as React from 'react';
 
-import * as COLORS from '@table-library/react-table-library/common/colors';
-import { isRowClick } from '@table-library/react-table-library/common/util/isRowClick';
-import { useIdReducer } from '@table-library/react-table-library/common/util/useIdReducer';
-import { useSyncRefState } from '@table-library/react-table-library/common/util/useSyncRefState';
-import { applyModifiers } from '@table-library/react-table-library/common/util/modifiers';
+import * as COLORS from '@earlycross-inc/react-table-library/common/colors';
+import { isRowClick } from '@earlycross-inc/react-table-library/common/util/isRowClick';
+import { applyModifiers } from '@earlycross-inc/react-table-library/common/util/modifiers';
+import { useIdReducer } from '@earlycross-inc/react-table-library/common/util/useIdReducer';
+import { useSyncRefState } from '@earlycross-inc/react-table-library/common/util/useSyncRefState';
 
-import { State, StateAndChange } from '@table-library/react-table-library/types/common';
-import {
-  Data,
-  TableNode,
-  Features,
-  FeatureProps,
-  RowProps,
-} from '@table-library/react-table-library/types/table';
+import { State, StateAndChange } from '@earlycross-inc/react-table-library/types/common';
 import {
   Select,
+  SelectClickTypes,
   SelectOptions,
   SelectTypes,
-  SelectClickTypes,
-} from '@table-library/react-table-library/types/select';
+} from '@earlycross-inc/react-table-library/types/select';
+import {
+  Data,
+  FeatureProps,
+  Features,
+  RowProps,
+  TableNode,
+} from '@earlycross-inc/react-table-library/types/table';
 
-import { HeaderCellSelect } from './HeaderCellSelect';
 import { CellSelect } from './CellSelect';
+import { HeaderCellSelect } from './HeaderCellSelect';
 
 const getRowProps = (props: RowProps, features: Features): FeatureProps => {
   const { item } = props;

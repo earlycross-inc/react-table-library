@@ -1,7 +1,7 @@
-import * as COLORS from '@table-library/react-table-library/common/colors';
-import { zipThemes } from '@table-library/react-table-library/theme/index';
+import * as COLORS from '@earlycross-inc/react-table-library/common/colors';
+import { zipThemes } from '@earlycross-inc/react-table-library/theme/index';
 
-import { Theme } from '@table-library/react-table-library/types/theme';
+import { Theme } from '@earlycross-inc/react-table-library/types/theme';
 
 const BASELINE_THEME = {
   Table: '',

@@ -1,13 +1,13 @@
-import * as React from 'react';
 import cs from 'clsx';
+import * as React from 'react';
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { css, jsx } from '@emotion/react';
+import { css } from '@emotion/react';
 
-import { ThemeContext } from '@table-library/react-table-library/common/context/Theme';
-import { LayoutContext } from '@table-library/react-table-library/common/context';
+import { LayoutContext } from '@earlycross-inc/react-table-library/common/context';
+import { ThemeContext } from '@earlycross-inc/react-table-library/common/context/Theme';
 
-import { HeaderProps } from '@table-library/react-table-library/types/table';
+import { HeaderProps } from '@earlycross-inc/react-table-library/types/table';
 
 const headerRow = `
   display: contents;

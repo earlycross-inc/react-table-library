@@ -1,11 +1,11 @@
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
-import { terser } from 'rollup-plugin-terser';
+import commonjs from '@rollup/plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
 import del from 'rollup-plugin-delete';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import typescript from 'rollup-plugin-typescript2';
 import postcss from 'rollup-plugin-postcss';
+import { terser } from 'rollup-plugin-terser';
+import typescript from 'rollup-plugin-typescript2';
 
 import pkg from './package.json';
 
@@ -32,7 +32,6 @@ export default {
     sort: './src/sort/index.ts',
     select: './src/select/index.ts',
     tree: './src/tree/index.ts',
-    pagination: './src/pagination/index.ts',
     // themes
     baseline: './src/baseline/index.ts',
     mantine: './src/mantine/index.ts',
@@ -42,7 +41,7 @@ export default {
   output: [
     // ES module version, for modern browsers
     {
-      name: '@table-library/react-table-library',
+      name: '@earlycross-inc/react-table-library',
       dir: `${__dirname}/lib`,
       format: 'es',
       sourcemap: true,

@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { Body } from '@table-library/react-table-library/table/index';
+import { Body } from '@earlycross-inc/react-table-library/table/index';
 
-import { TableNode } from '@table-library/react-table-library/types/table';
-import { NormalTableProps } from '@table-library/react-table-library/types/compact';
+import { NormalTableProps } from '@earlycross-inc/react-table-library/types/compact';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 import { CompactHeader } from './CompactHeader';
 import { CompactRow } from './CompactRow';

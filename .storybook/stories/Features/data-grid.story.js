@@ -1,20 +1,12 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import { FixedSizeList } from 'react-window';
-import AutoSizer from 'react-virtualized-auto-sizer';
+import * as React from 'react';
 import useInterval from 'use-interval';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
-import { Virtualized } from '@table-library/react-table-library/virtualized';
-import { useTheme } from '@table-library/react-table-library/theme';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { Virtualized } from '@earlycross-inc/react-table-library/virtualized';
 
 import { DisableAnimationsContext } from '../../stories/loki.js';
 import { lotsOfNodes, randomFromInterval } from '../data';

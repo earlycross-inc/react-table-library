@@ -1,17 +1,11 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
 
-import { usePagination } from '@table-library/react-table-library/pagination';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
 
 import { getData } from '../../server';
 

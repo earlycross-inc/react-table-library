@@ -1,14 +1,14 @@
 import * as React from 'react';
 
+import { HeaderCell } from '../Cell';
 import { Header } from '../Header';
 import { HeaderRow } from '../Row';
-import { HeaderCell } from '../Cell';
 
 import {
+  HeaderCellProps,
   HeaderProps,
   HeaderRowProps,
-  HeaderCellProps,
-} from '@table-library/react-table-library/types/table';
+} from '@earlycross-inc/react-table-library/types/table';
 
 const Footer: React.FC<HeaderProps> = (props) => <Header {...props} isFooter />;
 

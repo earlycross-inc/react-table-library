@@ -1,16 +1,9 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
 import {
-  useCustom,
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table, useCustom
+} from '@earlycross-inc/react-table-library/table';
 
 import { getData } from '../../server';
 

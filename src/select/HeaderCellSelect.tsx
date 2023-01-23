@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { SelectContext } from '@table-library/react-table-library/common/context/Select';
-import { HeaderCell } from '@table-library/react-table-library/table/Cell';
+import { SelectContext } from '@earlycross-inc/react-table-library/common/context/Select';
+import { HeaderCell } from '@earlycross-inc/react-table-library/table/Cell';
 
-import { SelectTypes } from '@table-library/react-table-library/types/select';
+import { SelectTypes } from '@earlycross-inc/react-table-library/types/select';
 
 import { Checkbox } from './Checkbox';
 

@@ -1,24 +1,17 @@
-import * as React from 'react';
-import axios from 'axios';
 import { storiesOf } from '@storybook/react';
+import axios from 'axios';
+import * as React from 'react';
 
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-  useCustom,
-} from '@table-library/react-table-library/table';
-import { useTheme } from '@table-library/react-table-library/theme';
+    CellSelect,
+    HeaderCellSelect,
+    useRowSelect
+} from '@earlycross-inc/react-table-library/select';
 import {
-  CellSelect,
-  HeaderCellSelect,
-  useRowSelect,
-} from '@table-library/react-table-library/select';
-import { usePagination } from '@table-library/react-table-library/pagination';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table, useCustom
+} from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 
 storiesOf('Client vs Server', module)
   .addParameters({ component: Table })

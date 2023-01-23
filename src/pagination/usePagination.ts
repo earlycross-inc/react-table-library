@@ -1,16 +1,16 @@
 import * as React from 'react';
 
-import { useReducerWithMiddleware } from '@table-library/react-table-library/common/util/useReducerWithMiddleware';
-import { useSyncControlledState } from '@table-library/react-table-library/common/util//useSyncControlledState';
-import { useSyncRefState } from '@table-library/react-table-library/common/util/useSyncRefState';
+import { useSyncControlledState } from '@earlycross-inc/react-table-library/common/util//useSyncControlledState';
+import { useReducerWithMiddleware } from '@earlycross-inc/react-table-library/common/util/useReducerWithMiddleware';
+import { useSyncRefState } from '@earlycross-inc/react-table-library/common/util/useSyncRefState';
 
-import { Action, State, StateAndChange } from '@table-library/react-table-library/types/common';
-import { Data, TableNode } from '@table-library/react-table-library/types/table';
+import { Action, State, StateAndChange } from '@earlycross-inc/react-table-library/types/common';
 import {
   Pages,
   Pagination,
   PaginationOptions,
-} from '@table-library/react-table-library/types/pagination';
+} from '@earlycross-inc/react-table-library/types/pagination';
+import { Data, TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 const SET = 'SET';
 

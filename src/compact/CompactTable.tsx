@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import { Table } from '@table-library/react-table-library/table/index';
+import { Table } from '@earlycross-inc/react-table-library/table/index';
 
-import { TableNode } from '@table-library/react-table-library/types/table';
-import { CompactTableProps, Column } from '@table-library/react-table-library/types/compact';
+import { Column, CompactTableProps } from '@earlycross-inc/react-table-library/types/compact';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 
-import { VirtualizedTable } from './VirtualizedTable';
-import { NormalTable } from './NormalTable';
 import { CompactFooter } from './CompactFooter';
+import { NormalTable } from './NormalTable';
+import { VirtualizedTable } from './VirtualizedTable';
 
 export const CompactTable: React.FC<CompactTableProps> = React.forwardRef(
   (

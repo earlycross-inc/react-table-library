@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { OnInitFunction } from '@table-library/react-table-library/types/table';
-import { TableElementRef } from '@table-library/react-table-library/types/layout';
+import { TableElementRef } from '@earlycross-inc/react-table-library/types/layout';
+import { OnInitFunction } from '@earlycross-inc/react-table-library/types/table';
 
 export const useOnInit = (
   onInit: OnInitFunction,

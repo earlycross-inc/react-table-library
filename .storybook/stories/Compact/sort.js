@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
-import { useSort } from '@table-library/react-table-library/sort';
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 
-import { DocumentationSee } from '../documentation';
 import { nodes } from '../data';
+import { DocumentationSee } from '../documentation';
 
 const key = 'Sort';
 
@@ -69,10 +69,10 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
-import { useSort } from '@table-library/react-table-library/sort';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
 
 import { DocumentationSee } from '../documentation';
 import { nodes } from '../data';

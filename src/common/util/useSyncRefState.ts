@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { State } from '@table-library/react-table-library/types/common';
+import { State } from '@earlycross-inc/react-table-library/types/common';
 
 const useSyncRefState = (name: string, context: any, state: State) => {
   React.useEffect(() => {

@@ -1,28 +1,19 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
-import { createTheme as createMaterialTheme } from '@mui/material/styles';
-import { ThemeProvider as MaterialThemeProvider } from '@mui/material/styles';
 import MaterialCheckbox from '@mui/material/Checkbox';
+import { createTheme as createMaterialTheme, ThemeProvider as MaterialThemeProvider } from '@mui/material/styles';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
-import { useTheme } from '@table-library/react-table-library/theme';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 
 import {
-  HeaderCellSelect,
-  CellSelect,
-  SelectClickTypes,
-  SelectTypes,
-  useRowSelect,
-} from '@table-library/react-table-library/select';
+    CellSelect, HeaderCellSelect, SelectClickTypes,
+    SelectTypes,
+    useRowSelect
+} from '@earlycross-inc/react-table-library/select';
 
 import { nodes } from '../data';
 

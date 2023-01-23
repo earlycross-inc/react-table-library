@@ -1,5 +1,5 @@
-import { State, Modifier } from '@table-library/react-table-library/types/common';
-import { TableNode } from '@table-library/react-table-library/types/table';
+import { Modifier, State } from '@earlycross-inc/react-table-library/types/common';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 export type PaginationOptions = {
   isServer?: boolean;

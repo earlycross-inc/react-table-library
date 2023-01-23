@@ -1,49 +1,28 @@
 import * as React from 'react';
 
-import { useCustom } from '@table-library/react-table-library/table';
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/chakra-ui';
-import { useRowSelect } from '@table-library/react-table-library/select';
-import { useTree, TreeExpandClickTypes } from '@table-library/react-table-library/tree';
-import { useSort } from '@table-library/react-table-library/sort';
-import { usePagination } from '@table-library/react-table-library/pagination';
 import {
-  fromTreeToList,
-  findNodeById,
-  insertNode,
-} from '@table-library/react-table-library/common';
-import {
-  Text,
-  Box,
-  HStack,
-  InputGroup,
-  InputLeftElement,
-  Input,
-  Checkbox,
-  IconButton,
-  Button,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalCloseButton,
-  Drawer,
-  DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
+    Box, Button, Checkbox, Drawer,
+    DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter,
+    DrawerHeader,
+    DrawerOverlay, HStack, IconButton, Input, InputGroup,
+    InputLeftElement, Modal, ModalBody,
+    ModalCloseButton, ModalContent,
+    ModalHeader, ModalOverlay, Text
 } from '@chakra-ui/react';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/chakra-ui';
 import {
-  FaPen,
-  FaSearch,
-  FaChevronRight,
-  FaChevronDown,
-  FaChevronUp,
-  FaChevronLeft,
+    findNodeById, fromTreeToList, insertNode
+} from '@earlycross-inc/react-table-library/common';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
+import { useRowSelect } from '@earlycross-inc/react-table-library/select';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
+import { useCustom } from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { TreeExpandClickTypes, useTree } from '@earlycross-inc/react-table-library/tree';
+import {
+    FaChevronDown, FaChevronLeft, FaChevronRight, FaChevronUp, FaPen,
+    FaSearch
 } from 'react-icons/fa';
 
 import { nodes } from '../../../data';
@@ -445,19 +424,19 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { useCustom } from '@table-library/react-table-library/table';
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/chakra-ui';
-import { useRowSelect } from '@table-library/react-table-library/select';
-import { useTree, TreeExpandClickTypes } from '@table-library/react-table-library/tree';
-import { useSort } from '@table-library/react-table-library/sort';
-import { usePagination } from '@table-library/react-table-library/pagination';
+import { useCustom } from '@earlycross-inc/react-table-library/table';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/chakra-ui';
+import { useRowSelect } from '@earlycross-inc/react-table-library/select';
+import { useTree, TreeExpandClickTypes } from '@earlycross-inc/react-table-library/tree';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
 import {
   fromTreeToList,
   findNodeById,
   insertNode,
-} from '@table-library/react-table-library/common';
+} from '@earlycross-inc/react-table-library/common';
 import {
   Text,
   Box,

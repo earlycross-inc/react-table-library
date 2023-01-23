@@ -1,24 +1,16 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
-import { useTheme } from '@table-library/react-table-library/theme';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 
-import { CellTree, useTree, TreeExpandClickTypes } from '@table-library/react-table-library/tree';
 import {
-  CellSelect,
-  HeaderCellSelect,
-  useRowSelect,
-  SelectClickTypes,
-} from '@table-library/react-table-library/select';
+    CellSelect,
+    HeaderCellSelect, SelectClickTypes, useRowSelect
+} from '@earlycross-inc/react-table-library/select';
+import { CellTree, TreeExpandClickTypes, useTree } from '@earlycross-inc/react-table-library/tree';
 
 import { nodes } from '../data';
 

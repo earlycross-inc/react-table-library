@@ -1,4 +1,4 @@
-import { TableNode } from '@table-library/react-table-library/types/table';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 export const recursiveReplaceInsert =
   (targetId: string, nodes: TableNode[], otherProperties: Record<any, any>) =>

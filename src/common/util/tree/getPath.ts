@@ -1,4 +1,4 @@
-import { TableNode } from '@table-library/react-table-library/types/table';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 import { findNodeById } from './findNodeById';
 
 export const getPath = (selectedFolderId: string | null, extendedNodes: TableNode[]) => {

@@ -1,13 +1,13 @@
 import * as React from 'react';
 import useInterval from 'use-interval';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 
 import { DisableAnimationsContext } from '../../stories/loki.js';
-import { DocumentationSee } from '../documentation';
 import { lotsOfNodes, randomFromInterval } from '../data';
+import { DocumentationSee } from '../documentation';
 import { valueToColor } from '../util';
 
 const key = 'Data Grid';
@@ -156,9 +156,9 @@ const code = `
 import * as React from 'react';
 import useInterval from 'use-interval';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
 
 import { DisableAnimationsContext } from '../../stories/loki.js';
 import { DocumentationSee } from '../documentation';

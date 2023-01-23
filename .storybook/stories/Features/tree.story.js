@@ -1,21 +1,15 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
 import FolderIcon from '@mui/icons-material/Folder';
 import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
 
-import { useTree, CellTree, TreeExpandClickTypes } from '@table-library/react-table-library/tree';
+import { CellTree, TreeExpandClickTypes, useTree } from '@earlycross-inc/react-table-library/tree';
 
 import { nodes } from '../data';
 

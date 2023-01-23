@@ -1,18 +1,14 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  Cell,
-} from '@table-library/react-table-library/table';
+    Body, Cell, Header,
+    HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
 
-import { useTree } from '@table-library/react-table-library/tree';
+import { useTree } from '@earlycross-inc/react-table-library/tree';
 
-import { useSort, HeaderCellSort } from '@table-library/react-table-library/sort';
+import { HeaderCellSort, useSort } from '@earlycross-inc/react-table-library/sort';
 
 import { nodes } from '../data';
 

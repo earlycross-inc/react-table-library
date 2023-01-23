@@ -1,20 +1,12 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
-import { storiesOf } from '@storybook/react';
-import { createTheme as createMaterialTheme } from '@mui/material/styles';
-import { ThemeProvider as MaterialThemeProvider } from '@mui/material/styles';
 import CircularProgress from '@mui/material/CircularProgress';
+import { createTheme as createMaterialTheme, ThemeProvider as MaterialThemeProvider } from '@mui/material/styles';
+import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
 import {
-  useCustom,
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table, useCustom
+} from '@earlycross-inc/react-table-library/table';
 
 import { getData } from '../../server';
 

@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/mantine';
-import { usePagination } from '@table-library/react-table-library/pagination';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/mantine';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 import { Group, Pagination } from '@mantine/core';
 
-import { DocumentationSee } from '../../../documentation';
 import { nodes } from '../../../data';
+import { DocumentationSee } from '../../../documentation';
 
 const key = 'Pagination';
 
@@ -70,13 +70,13 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 import {
   DEFAULT_OPTIONS,
   getTheme,
-} from '@table-library/react-table-library/mantine';
-import { usePagination } from '@table-library/react-table-library/pagination';
+} from '@earlycross-inc/react-table-library/mantine';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
 import { Group, Pagination } from '@mantine/core';
 
 import { DocumentationSee } from '../../../documentation';

@@ -1,8 +1,6 @@
 import * as React from 'react';
 
-import { DataColumn } from '@table-library/react-table-library/common/util/columns';
-
-import { Nullish } from '@table-library/react-table-library/types/common';
+import { DataColumn } from '@earlycross-inc/react-table-library/common/util/columns';
 
 // external
 

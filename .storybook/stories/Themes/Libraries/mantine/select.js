@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/mantine';
-import { useRowSelect } from '@table-library/react-table-library/select';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/mantine';
+import { useRowSelect } from '@earlycross-inc/react-table-library/select';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 import { Checkbox } from '@mantine/core';
 
-import { DocumentationSee } from '../../../documentation';
 import { nodes } from '../../../data';
+import { DocumentationSee } from '../../../documentation';
 
 const key = 'Select';
 
@@ -86,10 +86,10 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/mantine';
-import { useRowSelect } from '@table-library/react-table-library/select';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/mantine';
+import { useRowSelect } from '@earlycross-inc/react-table-library/select';
 import { Checkbox } from '@mantine/core';
 
 import { DocumentationSee } from '../../../documentation';

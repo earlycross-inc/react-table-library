@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/material-ui';
-import { useSort } from '@table-library/react-table-library/sort';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/material-ui';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-import { DocumentationSee } from '../../../documentation';
 import { nodes } from '../../../data';
+import { DocumentationSee } from '../../../documentation';
 
 const key = 'Sort';
 
@@ -76,10 +76,10 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/material-ui';
-import { useSort } from '@table-library/react-table-library/sort';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/material-ui';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 import { DocumentationSee } from '../../../documentation';

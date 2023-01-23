@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/mantine';
-import { useTree } from '@table-library/react-table-library/tree';
-import { FaChevronRight, FaChevronDown } from 'react-icons/fa';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/mantine';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { useTree } from '@earlycross-inc/react-table-library/tree';
+import { FaChevronDown, FaChevronRight } from 'react-icons/fa';
 
-import { DocumentationSee } from '../../../documentation';
 import { nodes } from '../../../data';
+import { DocumentationSee } from '../../../documentation';
 
 const key = 'Tree';
 
@@ -68,8 +68,8 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTree } from '@table-library/react-table-library/tree';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTree } from '@earlycross-inc/react-table-library/tree';
 
 import { DocumentationSee } from '../../../documentation';
 import { nodes } from '../../../data';

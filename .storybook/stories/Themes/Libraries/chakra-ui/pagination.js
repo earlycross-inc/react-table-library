@@ -1,14 +1,14 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/chakra-ui';
-import { usePagination } from '@table-library/react-table-library/pagination';
-import { Box, HStack, Button, IconButton } from '@chakra-ui/react';
-import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
+import { Box, Button, HStack, IconButton } from '@chakra-ui/react';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/chakra-ui';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-import { DocumentationSee } from '../../../documentation';
 import { nodes } from '../../../data';
+import { DocumentationSee } from '../../../documentation';
 
 const key = 'Pagination';
 
@@ -95,10 +95,10 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/chakra-ui';
-import { usePagination } from '@table-library/react-table-library/pagination';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/chakra-ui';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
 import { Box, HStack, Button, IconButton } from '@chakra-ui/react';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 

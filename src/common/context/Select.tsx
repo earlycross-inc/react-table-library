@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { Nullish } from '@table-library/react-table-library/types/common';
-import { Select } from '@table-library/react-table-library/types/select';
+import { Nullish } from '@earlycross-inc/react-table-library/types/common';
+import { Select } from '@earlycross-inc/react-table-library/types/select';
 
 const SelectContext = React.createContext<Select | Nullish>(null);
 

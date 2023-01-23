@@ -1,11 +1,11 @@
 import * as React from 'react';
 
-import { TableNode, TableProps, RowProps } from '@table-library/react-table-library/types/table';
-import { RowHeight } from '@table-library/react-table-library/types/virtualized';
-import { ColumnSortProps } from '@table-library/react-table-library/types/sort';
-import { ColumnSelectProps } from '@table-library/react-table-library/types/select';
-import { ColumnTreeProps } from '@table-library/react-table-library/types/tree';
-import { ColumnResizeProps } from '@table-library/react-table-library/types/resize';
+import { ColumnResizeProps } from '@earlycross-inc/react-table-library/types/resize';
+import { ColumnSelectProps } from '@earlycross-inc/react-table-library/types/select';
+import { ColumnSortProps } from '@earlycross-inc/react-table-library/types/sort';
+import { RowProps, TableNode, TableProps } from '@earlycross-inc/react-table-library/types/table';
+import { ColumnTreeProps } from '@earlycross-inc/react-table-library/types/tree';
+import { RowHeight } from '@earlycross-inc/react-table-library/types/virtualized';
 
 // external
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { TableNode } from '@table-library/react-table-library/types/table';
-import { TableOptions, RowOptions } from '@table-library/react-table-library/types/compact';
+import { RowOptions, TableOptions } from '@earlycross-inc/react-table-library/types/compact';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 export type RowHeight = number | ((item: TableNode, index: number) => number);
 

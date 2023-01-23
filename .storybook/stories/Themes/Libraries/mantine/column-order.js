@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/mantine';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/mantine';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 import { Button } from '@mantine/core';
 
-import { DocumentationSee } from '../../../documentation';
 import { nodes } from '../../../data';
+import { DocumentationSee } from '../../../documentation';
 
 const key = 'Column Ordering';
 
@@ -55,12 +55,12 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
 import {
   DEFAULT_OPTIONS,
   getTheme,
-} from '@table-library/react-table-library/mantine';
+} from '@earlycross-inc/react-table-library/mantine';
 import { Button } from '@mantine/core';
 
 import { DocumentationSee } from '../../../documentation';

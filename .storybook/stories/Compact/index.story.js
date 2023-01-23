@@ -1,24 +1,23 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { CompactTable, CompactTableProps } from '@table-library/react-table-library/compact';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
 
 import * as BaseStory from './base';
-import * as ThemeStory from './theme';
-import * as LayoutStory from './layout';
-import * as ResizeStory from './resize';
-import * as SortStory from './sort';
-import * as SearchStory from './search';
-import * as FilterStory from './filter';
-import * as SelectStory from './select';
-import * as TreeStory from './tree';
+import * as EditableStory from './editable';
 import * as ExpandStory from './expand';
-import * as PaginationStory from './pagination';
+import * as FilterStory from './filter';
+import * as FixedColumnStory from './fixed-column';
 import * as FixedHeaderStory from './fixed-header';
 import * as HorizontalScrollStory from './horizontal-scroll';
-import * as FixedColumnStory from './fixed-column';
+import * as LayoutStory from './layout';
+import * as PaginationStory from './pagination';
+import * as ResizeStory from './resize';
+import * as SearchStory from './search';
+import * as SelectStory from './select';
+import * as SortStory from './sort';
+import * as ThemeStory from './theme';
+import * as TreeStory from './tree';
 import * as VirtualizedStory from './virtualized';
-import * as EditableStory from './editable';
 // import * as DataGridStory from './data-grid';
 import * as ColumnHideStory from './column-hide';
 import * as ColumnOrderStory from './column-order';

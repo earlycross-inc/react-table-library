@@ -1,16 +1,10 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import html2canvas from 'html2canvas';
+import * as React from 'react';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
 
 import { nodes } from '../data';
 

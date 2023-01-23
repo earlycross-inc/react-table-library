@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { Nullish, State, Modifier } from '@table-library/react-table-library/types/common';
-import { TableNode } from '@table-library/react-table-library/types/table';
+import { Modifier, Nullish, State } from '@earlycross-inc/react-table-library/types/common';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 export enum SortIconPositions {
   Prefix,

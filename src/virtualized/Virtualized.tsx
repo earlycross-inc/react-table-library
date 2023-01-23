@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { VariableSizeList } from 'react-window';
 import AutoSizer from 'react-virtualized-auto-sizer';
+import { VariableSizeList } from 'react-window';
 
-import { Header, Body } from '@table-library/react-table-library/table/index';
 import {
   getRowHeight,
   SHARED_VIRTUALIZE_STYLE,
-} from '@table-library/react-table-library/common/util/virtualized';
+} from '@earlycross-inc/react-table-library/common/util/virtualized';
+import { Body, Header } from '@earlycross-inc/react-table-library/table/index';
 
-import { VirtualizedProps } from '@table-library/react-table-library/types/virtualized';
+import { VirtualizedProps } from '@earlycross-inc/react-table-library/types/virtualized';
 
 const Virtualized: React.FC<VirtualizedProps> = ({
   tableList,

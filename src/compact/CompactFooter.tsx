@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import { Footer, FooterRow, FooterCell } from '@table-library/react-table-library/table/index';
+import { Footer, FooterCell, FooterRow } from '@earlycross-inc/react-table-library/table/index';
 
-import { Column } from '@table-library/react-table-library/types/compact';
+import { Column } from '@earlycross-inc/react-table-library/types/compact';
 
 type FooterProps = { columns: Column[] };
 

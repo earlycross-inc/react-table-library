@@ -1,11 +1,11 @@
-import * as React from 'react';
 import {
-  Nullish,
-  State,
   IdReducerFunctions,
   Modifier,
-} from '@table-library/react-table-library/types/common';
-import { TableNode, GetRowProps } from '@table-library/react-table-library/types/table';
+  Nullish,
+  State,
+} from '@earlycross-inc/react-table-library/types/common';
+import { GetRowProps, TableNode } from '@earlycross-inc/react-table-library/types/table';
+import * as React from 'react';
 
 export enum TreeExpandClickTypes {
   RowClick,

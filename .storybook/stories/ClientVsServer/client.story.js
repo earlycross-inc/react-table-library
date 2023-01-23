@@ -1,24 +1,19 @@
-import * as React from 'react';
-import axios from 'axios';
 import { storiesOf } from '@storybook/react';
+import * as React from 'react';
 
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  Cell,
-} from '@table-library/react-table-library/table';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { CellTree, useTree, TreeExpandClickTypes } from '@table-library/react-table-library/tree';
+    CellSelect,
+    HeaderCellSelect,
+    useRowSelect
+} from '@earlycross-inc/react-table-library/select';
+import { HeaderCellSort, useSort } from '@earlycross-inc/react-table-library/sort';
 import {
-  CellSelect,
-  HeaderCellSelect,
-  useRowSelect,
-} from '@table-library/react-table-library/select';
-import { useSort, HeaderCellSort } from '@table-library/react-table-library/sort';
-import { usePagination } from '@table-library/react-table-library/pagination';
+    Body, Cell, Header,
+    HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { CellTree, TreeExpandClickTypes, useTree } from '@earlycross-inc/react-table-library/tree';
 
 import { nodes } from '../data';
 

@@ -1,6 +1,6 @@
-import { zipThemes } from '@table-library/react-table-library/theme/index';
+import { zipThemes } from '@earlycross-inc/react-table-library/theme/index';
 
-import { Theme } from '@table-library/react-table-library/types/theme';
+import { Theme } from '@earlycross-inc/react-table-library/types/theme';
 
 type Configuration = {
   isVirtualized?: boolean;

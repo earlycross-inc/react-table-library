@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-import { Cell } from '@table-library/react-table-library/table/Cell';
-import { SelectContext } from '@table-library/react-table-library/common/context/Select';
-import { useFeatures } from '@table-library/react-table-library/common/context/Feature';
-import { applyModifiers } from '@table-library/react-table-library/common/util/modifiers';
-import { useShiftDown } from '@table-library/react-table-library/common/hooks/useShiftDown';
+import { useFeatures } from '@earlycross-inc/react-table-library/common/context/Feature';
+import { SelectContext } from '@earlycross-inc/react-table-library/common/context/Select';
+import { useShiftDown } from '@earlycross-inc/react-table-library/common/hooks/useShiftDown';
+import { applyModifiers } from '@earlycross-inc/react-table-library/common/util/modifiers';
+import { Cell } from '@earlycross-inc/react-table-library/table/Cell';
 
-import { SelectTypes, CellSelectProps } from '@table-library/react-table-library/types/select';
+import { CellSelectProps, SelectTypes } from '@earlycross-inc/react-table-library/types/select';
 
 import { Checkbox } from './Checkbox';
 

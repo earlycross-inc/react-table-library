@@ -1,14 +1,14 @@
-import { useSyncRefState } from '@table-library/react-table-library/common/util/useSyncRefState';
-import { useReducerWithMiddleware } from '@table-library/react-table-library/common/util/useReducerWithMiddleware';
-import { useSyncControlledState } from '@table-library/react-table-library/common/util/useSyncControlledState';
+import { useReducerWithMiddleware } from '@earlycross-inc/react-table-library/common/util/useReducerWithMiddleware';
+import { useSyncControlledState } from '@earlycross-inc/react-table-library/common/util/useSyncControlledState';
+import { useSyncRefState } from '@earlycross-inc/react-table-library/common/util/useSyncRefState';
 
 import {
-  State,
   Action,
-  StateAndChange,
   Nullish,
-} from '@table-library/react-table-library/types/common';
-import { Data } from '@table-library/react-table-library/types/table';
+  State,
+  StateAndChange,
+} from '@earlycross-inc/react-table-library/types/common';
+import { Data } from '@earlycross-inc/react-table-library/types/table';
 
 const set = (state: State, action: Action) => ({
   ...state,

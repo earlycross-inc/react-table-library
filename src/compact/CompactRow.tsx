@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { Row, Cell } from '@table-library/react-table-library/table/index';
+import { Cell, Row } from '@earlycross-inc/react-table-library/table/index';
 
-import { TableNode } from '@table-library/react-table-library/types/table';
-import { CompactTableProps, Column } from '@table-library/react-table-library/types/compact';
+import { Column, CompactTableProps } from '@earlycross-inc/react-table-library/types/compact';
+import { TableNode } from '@earlycross-inc/react-table-library/types/table';
 
 const evaluateProps = (props: Record<string, any>, item: TableNode) =>
   Object.keys(props).reduce((acc: Record<string, any>, key: string) => {

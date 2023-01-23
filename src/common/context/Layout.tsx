@@ -1,16 +1,16 @@
 import * as React from 'react';
 
 import {
-  toDataColumn,
   getHeaderColumns,
-} from '@table-library/react-table-library/common/util/columns';
+  toDataColumn,
+} from '@earlycross-inc/react-table-library/common/util/columns';
 
-import { Nullish } from '@table-library/react-table-library/types/common';
+import { Nullish } from '@earlycross-inc/react-table-library/types/common';
 import {
   Layout,
-  TableMemoryRef,
   TableElementRef,
-} from '@table-library/react-table-library/types/layout';
+  TableMemoryRef,
+} from '@earlycross-inc/react-table-library/types/layout';
 
 type Value = {
   tableElementRef: TableElementRef;

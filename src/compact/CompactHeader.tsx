@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import { Header, HeaderRow, HeaderCell } from '@table-library/react-table-library/table/index';
+import { Header, HeaderCell, HeaderRow } from '@earlycross-inc/react-table-library/table/index';
 
-import { CompactTableProps, Column } from '@table-library/react-table-library/types/compact';
+import { Column, CompactTableProps } from '@earlycross-inc/react-table-library/types/compact';
 
 const countPriorCheckboxes = (columns: Column[], column: Column) => {
   const index = columns.indexOf(column);

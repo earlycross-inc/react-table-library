@@ -1,33 +1,20 @@
 import * as React from 'react';
 
-import { useCustom } from '@table-library/react-table-library/table';
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/material-ui';
-import { useRowSelect } from '@table-library/react-table-library/select';
-import { useTree, TreeExpandClickTypes } from '@table-library/react-table-library/tree';
-import { useSort } from '@table-library/react-table-library/sort';
-import { usePagination } from '@table-library/react-table-library/pagination';
 import {
-  fromTreeToList,
-  findNodeById,
-  insertNode,
-} from '@table-library/react-table-library/common';
+    findNodeById, fromTreeToList, insertNode
+} from '@earlycross-inc/react-table-library/common';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/material-ui';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
+import { useRowSelect } from '@earlycross-inc/react-table-library/select';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
+import { useCustom } from '@earlycross-inc/react-table-library/table';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { TreeExpandClickTypes, useTree } from '@earlycross-inc/react-table-library/tree';
 import {
-  Stack,
-  TextField,
-  Checkbox,
-  Modal,
-  IconButton,
-  Button,
-  Box,
-  Typography,
-  Drawer,
-  FormGroup,
-  FormControlLabel,
-  TablePagination,
+    Box, Button, Checkbox, Drawer, FormControlLabel, FormGroup, IconButton, Modal, Stack, TablePagination, TextField, Typography
 } from '@mui/material';
-import { FaPen, FaChevronRight, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { FaChevronDown, FaChevronRight, FaChevronUp, FaPen } from 'react-icons/fa';
 
 import { nodes } from '../../../data';
 
@@ -371,19 +358,19 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { useCustom } from '@table-library/react-table-library/table';
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { DEFAULT_OPTIONS, getTheme } from '@table-library/react-table-library/material-ui';
-import { useRowSelect } from '@table-library/react-table-library/select';
-import { useTree, TreeExpandClickTypes } from '@table-library/react-table-library/tree';
-import { useSort } from '@table-library/react-table-library/sort';
-import { usePagination } from '@table-library/react-table-library/pagination';
+import { useCustom } from '@earlycross-inc/react-table-library/table';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { DEFAULT_OPTIONS, getTheme } from '@earlycross-inc/react-table-library/material-ui';
+import { useRowSelect } from '@earlycross-inc/react-table-library/select';
+import { useTree, TreeExpandClickTypes } from '@earlycross-inc/react-table-library/tree';
+import { useSort } from '@earlycross-inc/react-table-library/sort';
+import { usePagination } from '@earlycross-inc/react-table-library/pagination';
 import {
   fromTreeToList,
   findNodeById,
   insertNode,
-} from '@table-library/react-table-library/common';
+} from '@earlycross-inc/react-table-library/common';
 import {
   Stack,
   TextField,

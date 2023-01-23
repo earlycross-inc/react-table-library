@@ -1,20 +1,12 @@
-import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import { FixedSizeList } from 'react-window';
-import AutoSizer from 'react-virtualized-auto-sizer';
+import * as React from 'react';
 
 import {
-  Table,
-  Header,
-  HeaderRow,
-  Body,
-  Row,
-  HeaderCell,
-  Cell,
-} from '@table-library/react-table-library/table';
-import { Virtualized } from '@table-library/react-table-library/virtualized';
+    Body, Cell, Header, HeaderCell, HeaderRow, Row, Table
+} from '@earlycross-inc/react-table-library/table';
+import { Virtualized } from '@earlycross-inc/react-table-library/virtualized';
 
-import { useTree, CellTree } from '@table-library/react-table-library/tree';
+import { CellTree, useTree } from '@earlycross-inc/react-table-library/tree';
 
 import { manyNodes } from '../data';
 

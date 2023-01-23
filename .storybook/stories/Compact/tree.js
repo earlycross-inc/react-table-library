@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
-import { useTree } from '@table-library/react-table-library/tree';
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { useTree } from '@earlycross-inc/react-table-library/tree';
 
-import { DocumentationSee } from '../documentation';
 import { nodes } from '../data';
+import { DocumentationSee } from '../documentation';
 
 const key = 'Tree';
 
@@ -55,10 +55,10 @@ const Component = () => {
 const code = `
 import * as React from 'react';
 
-import { CompactTable } from '@table-library/react-table-library/compact';
-import { useTheme } from '@table-library/react-table-library/theme';
-import { getTheme } from '@table-library/react-table-library/baseline';
-import { useTree } from '@table-library/react-table-library/tree';
+import { CompactTable } from '@earlycross-inc/react-table-library/compact';
+import { useTheme } from '@earlycross-inc/react-table-library/theme';
+import { getTheme } from '@earlycross-inc/react-table-library/baseline';
+import { useTree } from '@earlycross-inc/react-table-library/tree';
 
 import { DocumentationSee } from '../documentation';
 import { nodes } from '../data';
