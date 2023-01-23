@@ -3,7 +3,7 @@ import * as React from 'react';
 
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { css } from '@emotion/react';
+import { css, jsx } from '@emotion/react';
 
 import { RowContainer } from '@earlycross-inc/react-table-library/common/components/Row';
 import { useFeatures } from '@earlycross-inc/react-table-library/common/context/Feature';

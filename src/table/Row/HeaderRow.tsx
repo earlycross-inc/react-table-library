@@ -2,7 +2,7 @@ import cs from 'clsx';
 import * as React from 'react';
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { css } from '@emotion/react';
+import { css, jsx } from '@emotion/react';
 
 import { HeaderRowContainer } from '@earlycross-inc/react-table-library/common/components/Row';
 import {
