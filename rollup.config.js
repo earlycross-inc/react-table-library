@@ -32,6 +32,7 @@ export default {
     sort: './src/sort/index.ts',
     select: './src/select/index.ts',
     tree: './src/tree/index.ts',
+    pagination: './src/pagination/index.ts',
     // themes
     baseline: './src/baseline/index.ts',
     mantine: './src/mantine/index.ts',
