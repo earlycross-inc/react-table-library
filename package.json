@@ -1,5 +1,5 @@
 {
-  "name": "@table-library/react-table-library",
+  "name": "@earlycross-inc/react-table-library",
   "version": "0.0.0-development",
   "description": "react-table-library",
   "type": "module",
@@ -132,7 +132,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/table-library/react-table-library.git"
+    "url": "https://github.com/earlycross-inc/react-table-library.git"
   },
   "keywords": [
     "react",
