@@ -17,6 +17,7 @@ const Virtualized: React.FC<VirtualizedProps> = ({
   body,
   tableOptions,
   rowOptions,
+  listRef,
 }: VirtualizedProps) => {
   return (
     <>
@@ -24,6 +25,7 @@ const Virtualized: React.FC<VirtualizedProps> = ({
       <AutoSizer>
         {({ width, height }) => (
           <VariableSizeList
+            ref={listRef}
             height={height}
             width={width}
             itemCount={tableList.length}
